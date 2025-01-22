@@ -46,7 +46,7 @@ $(document).ready(function () {
             // $('#results').html('<p>Your results will appear here.</p>'); // Example results display
             $('section.question').hide(); // Hide the quiz
             $('#submit').show(); // Show the results section
-            let totalQuestions = 5; // Total number of correct answers
+            let totalQuestions = 14; // Total number of correct answers
             let correctAnswers = $('input[data-correct]:checked').length; // User's correct answers
 
 
