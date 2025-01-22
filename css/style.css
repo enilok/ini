@@ -5,7 +5,9 @@
 .box {
     display: none;
 }
-
+#submit{
+    display: none;
+}
 body {
     background-image: url(../img/metolite-paper-copy-space.jpg);
 }
@@ -131,8 +133,38 @@ body {
     }
 }
 
+
 #arrange {
     text-align: center;
     margin-top: 200px;
     font-size: 50px;
+}
+#submit{
+    border: 2px solid palegoldenrod;
+    align-items: center;
+    width: 100vh;
+    height: 50vh;
+    background-color: #ccc;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+#submit h1{
+    text-align: center;
+}
+#result{
+    
+    height: 90%;
+    width: 100%;
+    background-color: rgb(18, 227, 227);
+}
+.highlight {
+    background-color: white !important; /* Highlight with white */
+    color: black; /* Optional: Adjust text color for contrast */
+    border: 2px solid black; /* Optional: Add a border */
+    padding: 10px; /* Optional: Add padding for better visibility */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+video{
+    width: 100%;
 }
