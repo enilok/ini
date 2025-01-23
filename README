@@ -1,18 +1,24 @@
 # Football Quiz Game
 A web-based football quiz game that tests your knowledge of football trivia with a timer and results evaluation.
 ## Table of Contents
+- [Key things](#key-things)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license) 
+## Key things 
+- Users are only allowed to answer once
+- Correct answer are highligthed white
 ## Features
 - Interactive quiz interface with multiple-choice questions.
 - Countdown timer for added challenge.
 - Winning and losing videos based on performance.
 - Dynamic results display.
+## Buggs
+- User are not able to see thier score 
 ## Installation
 1. Clone the repository:
    ```bash
